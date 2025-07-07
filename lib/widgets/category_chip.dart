@@ -24,7 +24,7 @@ class _CategoryChipState extends State<CategoryChip> {
     switch (category.toLowerCase()) {
       case 'الكل':
       case 'all':
-        return FontAwesomeIcons.utensils;
+        return FontAwesomeIcons.bowlFood;
       case 'برجر':
       case 'burger':
       case 'برغر':
@@ -35,15 +35,15 @@ class _CategoryChipState extends State<CategoryChip> {
       case 'مشروبات':
       case 'drinks':
       case 'عصائر':
-        return FontAwesomeIcons.glassWater;
+        return FontAwesomeIcons.bottleWater;
       case 'حلويات':
       case 'desserts':
       case 'حلوى':
-        return FontAwesomeIcons.cakeCandles;
+        return FontAwesomeIcons.iceCream;
       case 'سلطات':
       case 'salads':
       case 'سلطة':
-        return FontAwesomeIcons.leaf;
+        return FontAwesomeIcons.seedling;
       case 'دجاج':
       case 'chicken':
         return FontAwesomeIcons.drumstickBite;
@@ -54,12 +54,24 @@ class _CategoryChipState extends State<CategoryChip> {
       case 'معجنات':
       case 'pastries':
       case 'فطائر':
-        return FontAwesomeIcons.breadSlice;
+        return FontAwesomeIcons.cookie;
       case 'قهوة':
       case 'coffee':
         return FontAwesomeIcons.mugHot;
+      case 'شاورما':
+      case 'shawarma':
+        return FontAwesomeIcons.hotdog;
+      case 'لحوم':
+      case 'meat':
+        return FontAwesomeIcons.cow;
+      case 'مقبلات':
+      case 'appetizers':
+        return FontAwesomeIcons.bowlRice;
+      case 'ساندويتش':
+      case 'sandwich':
+        return FontAwesomeIcons.breadSlice;
       default:
-        return FontAwesomeIcons.utensils;
+        return FontAwesomeIcons.bowlFood;
     }
   }
 
