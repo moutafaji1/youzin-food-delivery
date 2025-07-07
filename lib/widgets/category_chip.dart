@@ -105,36 +105,13 @@ class _CategoryChipState extends State<CategoryChip> {
             width: 2,
           ),
           boxShadow: [
-            if (widget.isSelected) ...[
-              // Main glow effect
-              BoxShadow(
-                color: const Color(0xFFFFD700).withValues(alpha: 0.6),
-                spreadRadius: 4,
-                blurRadius: 12,
-                offset: const Offset(0, 0),
-              ),
-              // Secondary glow
-              BoxShadow(
-                color: const Color(0xFFFFA500).withValues(alpha: 0.4),
-                spreadRadius: 2,
-                blurRadius: 8,
-                offset: const Offset(0, 4),
-              ),
-              // Inner glow
-              BoxShadow(
-                color: const Color(0xFFFFD700).withValues(alpha: 0.3),
-                spreadRadius: 1,
-                blurRadius: 4,
-                offset: const Offset(0, 2),
-              ),
-            ] else ...[
-              BoxShadow(
-                color: Colors.black.withValues(alpha: 0.1),
-                spreadRadius: 1,
-                blurRadius: 6,
-                offset: const Offset(0, 2),
-              ),
-            ],
+            // Simple shadow for depth only
+            BoxShadow(
+              color: Colors.black.withValues(alpha: 0.1),
+              spreadRadius: 1,
+              blurRadius: 4,
+              offset: const Offset(0, 2),
+            ),
           ],
         ),
         child: Row(
