@@ -1,0 +1,21 @@
+# Food Images Placeholder
+
+This folder will contain local food images for the app.
+For now, we'll use placeholder images that work offline.
+
+Images needed:
+- burger_classic.jpg
+- burger_chicken.jpg  
+- burger_cheese.jpg
+- pizza_margherita.jpg
+- pizza_pepperoni.jpg
+- pizza_veggie.jpg
+- drink_cola.jpg
+- drink_juice.jpg
+- drink_water.jpg
+- dessert_cake.jpg
+- dessert_ice_cream.jpg
+- salad_caesar.jpg
+- chicken_grilled.jpg
+- seafood_fish.jpg
+- pastry_croissant.jpg
